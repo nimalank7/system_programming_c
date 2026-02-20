@@ -7,5 +7,7 @@
 *.ko
 *.mod
 *.mod.c
+*.symvers
+*.order
 .DS_Store
 /.vagrant

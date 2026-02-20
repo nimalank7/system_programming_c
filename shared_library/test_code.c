@@ -4,8 +4,12 @@
 #include "encrypt.h"
 
 /*
-Use LD_LIBRARY_PATH=. ./test_code_dynamic to run the binary against the dynamic
+Use LD_LIBRARY_PATH=. ./test_code_dynamic.out to run the binary against the dynamic
 library
+
+Use ./test_code_static.out to run the statically linked binary
+
+Use ldd ./test_code_dynamic.out to see the shared libraries
 */
 
 int main() {

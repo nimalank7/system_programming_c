@@ -1,6 +1,6 @@
 GCC=clang
 CFLAGS=-Wall -g
-BINS=libplus1.so libplus2.so test.out
+BINS=libplusone.so libplustwo.so test.out
 
 all: $(BINS)
 
@@ -8,7 +8,7 @@ all: $(BINS)
 	$(GCC) $(CFLAGS) -fPIC -shared -o $@ $^
 
 %.out: %.c
-	$(GCC) $(CFLAGS)-o $@ $^
+	$(GCC) $(CFLAGS) -o $@ $^
 
 clean:
 	rm $(BINS)
