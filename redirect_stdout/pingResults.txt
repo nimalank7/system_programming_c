@@ -1,0 +1,7 @@
+The duplicated fd: 1
+PING google.com (172.217.169.46): 56 data bytes
+64 bytes from 172.217.169.46: icmp_seq=0 ttl=115 time=81.416 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 81.416/81.416/81.416/0.000 ms

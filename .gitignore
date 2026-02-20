@@ -1,0 +1,11 @@
+/.vscode
+*.out
+*.so
+*.a
+*.o
+*.cmd
+*.ko
+*.mod
+*.mod.c
+.DS_Store
+/.vagrant
