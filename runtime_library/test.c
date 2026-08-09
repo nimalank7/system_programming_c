@@ -69,9 +69,5 @@ int main(int argc, char** argv) {
   printf("%d --> %d\n", thenumber, opfunc(thenumber));
 
   // Close the library functions
-<<<<<<< HEAD
-=======
-  dlclose(opfunc);
->>>>>>> 16ada43 (Added kprobe)
   dlclose(libhandle);
 }
