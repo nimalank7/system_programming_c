@@ -69,5 +69,5 @@ int main(int argc, char** argv) {
   printf("%d --> %d\n", thenumber, opfunc(thenumber));
 
   // Close the library functions
-  dlclose(opfunc);
+  dlclose(libhandle);
 }
