@@ -6,6 +6,7 @@
 
 int main(void) {
   struct termios t;
+  // Swap out with STDOUT_FILENO to check the terminal attributes on STDOUT
   if (tcgetattr(STDIN_FILENO, &t) == -1) {
     perror("tcgetattr");
   } else {
